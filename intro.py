@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from pyparsing import empty
-from tkinter.tix import COLUMN
+
 
 import functions as fun
 from PIL import Image
