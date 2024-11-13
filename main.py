@@ -1,12 +1,19 @@
-import streamlit as st
-import pandas as pd
+
 import numpy as np
 from PIL import Image
-
 import os
+import pandas as pd
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.model_selection import train_test_split
+from catboost import Pool
+from catboost import CatBoostRegressor
+import pickle
 
 import functions as fun
-
 # fun.data_load()
 
 fun.pickle_load()
