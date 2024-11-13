@@ -8,4 +8,4 @@ st.title("Top3 Category Love Count")
 
 st.write("카테고리별 좋아요 수 상위 3개 제품:")
 
-# fun.top3_love_count()
+fun.top3_love_count()
