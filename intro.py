@@ -7,14 +7,14 @@ from pyparsing import empty
 import functions as fun
 from PIL import Image
 
-# img = Image.open('./data/Logo_big.png')
+img = Image.open('./data/Logo_big.png')
 # img = img.resize((128, 128))
-# st.image(img)
+st.image(img)
 
 st.subheader(' ')
 st.empty()
 
-# st.video('./data/sephora_vi.mp4')
+st.video('./data/sephora_vi.mp4')
 st.text(' ')
 
 st.subheader('ABOUT THIS HOMEPAGE')
